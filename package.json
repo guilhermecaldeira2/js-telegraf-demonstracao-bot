@@ -1,0 +1,29 @@
+{
+  "name": "bot-telegram-agenda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "agenda.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3001",
+    "bot": "node agenda.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "json-server": "^0.17.0",
+    "moment": "^2.29.1",
+    "node-schedule": "^1.3.3",
+    "telegraf": "3.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermecaldeira2/js-telegraf-demonstracao-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermecaldeira2/js-telegraf-demonstracao-bot/issues"
+  },
+  "homepage": "https://github.com/guilhermecaldeira2/js-telegraf-demonstracao-bot#readme"
+}
